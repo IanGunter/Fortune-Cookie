@@ -2,7 +2,7 @@
 'Fortune Cookie
 'RCET
 'Fall 2020
-'
+'https://github.com/IanGunter/Fortune-Cookie.git
 
 
 Module FortuneCookie
@@ -40,9 +40,10 @@ Module FortuneCookie
 
     End Sub
 
-
+    'Function Below creates a randomly generated number between 1 and 3.
     Function GetRandomNumber(ByVal minimum As Integer, ByVal maximum As Integer)
         Dim value As Integer
+        'Rnd picks a number between 0 and 1.
         value = ((maximum - minimum + 1) * Rnd()) + minimum
         Return value
 
