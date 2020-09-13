@@ -20,6 +20,7 @@ Module FortuneCookie
 
             Console.WriteLine("Press Enter to hear your future.")
             Console.ReadLine()
+            'GetRandomNumber(1,2) sets the random number maximum and minimum values
             randomNumber = GetRandomNumber(1, 2)
 
             If randomNumber = 1 Then
