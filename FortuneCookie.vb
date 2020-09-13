@@ -21,9 +21,9 @@ Module FortuneCookie
             If randomNumber = 1 Then
                 Console.WriteLine("Fortune: Beware of creepy crawlers.")
             ElseIf randomNumber = 2 Then
-                Console.WriteLine("Fortune: You")
+                Console.WriteLine("Fortune: Sleep is in your future.")
             ElseIf randomNumber = 3 Then
-                Console.WriteLine("Fortune: You are going to poop soon ")
+                Console.WriteLine("Fortune: You do not want to sell me death sticks. ")
             End If
 
             Console.ReadLine()
